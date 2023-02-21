@@ -4,11 +4,11 @@ import Topbar from './pages/global/Topbar';
 import Sidebar from "./pages/global/Sidebar";
 import Dashboard from "./pages/dashboard/Dashboard";
 import Team from "./pages/team/Team";
-//import Invoices from "./scenes/invoices";
+import Invoices from "./pages/invoice/Invoice";
 import Contacts from "./pages/contacts/Contacts";
-/*import Bar from "./scenes/bar";
-import Form from "./scenes/form";
-import Line from "./scenes/line";
+//import Bar from "./scenes/bar";
+import Form from "./pages/form/Form";
+/*import Line from "./scenes/line";
 import Pie from "./scenes/pie";
 import FAQ from "./scenes/faq";
 import Geography from "./scenes/geography";
@@ -31,9 +31,10 @@ function App() {
               <Route path='/' element = {<Dashboard />} />
               <Route path='/team' element = {<Team />} />
               <Route path='/contacts' element = {<Contacts />} />
-               {/*
               <Route path='/invoices' element = {<Invoices />} />
+              
               <Route path='/form' element = {<Form />} />
+              {/*
               <Route path='/bar' element = {<Bar />} />
               <Route path='/pie' element = {<Pie />} />
               <Route path='/line' element = {<Line />} />
