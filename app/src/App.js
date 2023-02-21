@@ -11,8 +11,8 @@ import Form from "./pages/form/Form";
 /*import Line from "./scenes/line";
 import Pie from "./scenes/pie";
 import FAQ from "./scenes/faq";
-import Geography from "./scenes/geography";
-import Calendar from "./scenes/calendar/calendar";*/
+import Geography from "./scenes/geography";*/
+import Calendar from "./pages/calendar/Calendar";
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -40,8 +40,9 @@ function App() {
               <Route path='/line' element = {<Line />} />
               <Route path='/faq' element = {<Faq />} />
               <Route path='/geography' element = {<Geography />} />
-              <Route path='/calendar' element = {<Calendar />} />
               */}
+              <Route path='/calendar' element = {<Calendar />} />
+              
             </Routes>
       </main>
     </div>
